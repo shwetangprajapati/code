@@ -1,0 +1,43 @@
+.form_input{
+    outline: none;
+    border: none;
+   border-bottom: 1px solid black;
+    width: 100%;
+  }
+  .form_label{
+    color:red;
+    font-weight: bold;
+    padding-top: 5px;
+  }
+
+.form_submit {
+    background-color:red;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    width: 157px;
+    padding: 9px;
+  }
+  .form_heading{
+      font-weight: bold;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding-top: 6rem;
+
+  }
+  .width{
+    margin-left: 6rem;
+      margin-right: 6rem;
+  }
+  .form_error_msg{
+    color:brown;
+    font-weight: bold;
+}

@@ -1,0 +1,139 @@
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 31%;
+    color: white;
+    left: 6%;
+}
+.heading1{
+    width: 45%;
+    padding-bottom: 31px;
+}
+
+.button_style{
+    background-color: orange;
+    width: 155px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 4px;
+}
+@media (max-width:1600px) {
+    .heading1 {
+        font-size: 47px;
+    padding-bottom: 82px;
+        }
+    .button_style{      
+                width: 236px;
+        font-size: 32px;
+        padding: 8px;    
+    }
+    .absolute{
+        top: 32%;
+    }
+}
+
+@media (max-width:1500px) {
+    .heading1 {
+        font-size: 45px;
+        }
+}
+
+@media (max-width:1400px) {
+    .heading1 {
+        font-size: 40px;
+    }
+}
+@media (max-width:1310px) {
+    .heading1 {
+        font-size: 38px;
+        padding-bottom: 63px;    
+    }
+}
+
+@media (max-width:1240px) {
+    .heading1 {
+        font-size: 35px;
+        padding-bottom: 52px;    
+    }
+    .button_style {
+        width: 201px;
+        font-size: 25px;
+        padding: 5px;
+    }
+}
+
+@media (max-width:1030px) {
+    .heading1 {
+        font-size: 29px;
+        padding-bottom: 48px;    
+    }
+    .button_style {
+        width: 199px;
+        font-size: 22px;
+        padding: 6px;
+    }
+}
+@media (max-width:880px) {
+    .heading1 {
+        font-size: 26px;
+        padding-bottom: 39px; 
+    }
+    .button_style {
+        width: 192px;
+        font-size: 21px;
+        padding: 4px;
+    }
+}
+@media (max-width:786px) {
+    .heading1 {
+        font-size: 22px;
+        padding-bottom: 33px;
+    }
+    .button_style {
+        width: 138px;
+        font-size: 15px;
+        padding: 3px;
+    }
+}
+@media (max-width:660px) {
+    .heading1 {
+        font-size: 19px;
+        padding-bottom: 27px;
+    
+    }
+   
+}
+@media (max-width:550px) {
+    .heading1 {
+        font-size: 16px;
+        padding-bottom: 22px;
+    }
+    .button_style {
+        width: 111px;
+    font-size: 14px;
+    padding: 1px;
+    }
+}
+
+@media (max-width:480px) {
+    .heading1 {
+        font-size: 12px;
+        padding-bottom: 0px;
+    }
+    .button_style {
+        width: 81px;
+        font-size: 10px;
+        padding: 2px;
+    }
+}

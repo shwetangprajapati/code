@@ -1,0 +1,51 @@
+.savedjobs_headdiv {
+    background: #fff;
+}
+.savedjobs_maintext {
+   border-bottom: 1px solid lightgray;
+    padding: 17px;
+}
+.savedjobs_text {
+    color: rgb(236, 63, 63);
+    font-size: 12px; 
+}
+.savedjobs_mainhead {
+    border: 1px solid lightgray;
+   margin-top: 30px;
+}
+.icon_img {
+    width: 135px;
+}
+.savedjobs_text2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.icon_imgtext {
+    text-align: center;
+}
+.savedjobs_icon {
+    margin-right: 10px;
+}
+
+@media screen and ( max-width: 425px) {
+    .savedjobs_mainhead {
+        border-radius: 0;
+        box-shadow: none;
+       margin-top: 30px;
+    }
+    .savedjobs_maintext {
+      color: rgb(236, 63, 63);
+      font-size: 10px; 
+     padding: 5px;
+     padding-left: 8px;
+    }
+    .savedjobs_text {
+        font-size: 9px;
+        padding-right: 2px;
+        
+    }
+    /* .savedjobs_text1 {
+        text-align: last;
+        padding-bottom: 10px;
+    } */
+}

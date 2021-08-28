@@ -1,0 +1,21 @@
+.responsive{
+    width:100%;
+}
+.img_heading{   
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 17px;
+  
+}
+.img_para{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 18px;
+}
+.background_color{
+    background-color: rgb(229, 226, 226);
+}
+.about_padding{
+    padding-top: 36px;
+    padding-bottom: 36px;
+}

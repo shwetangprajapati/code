@@ -1,0 +1,78 @@
+.hero_form_error {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 500;
+  color: #da1616;
+}
+
+.headings {
+  position: absolute;
+  color: #d61414;
+  margin-left: 4rem;
+  background: #fff;
+  font-size: 13px;
+  top: -14px;
+  background: #fff;
+  font-size: 17px;
+}
+
+.reg_button {
+  outline: none !important;
+  border: none;
+  margin-left: 148px;
+  width: 55%;
+  padding: 12px 0;
+  background: #d9241c;
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .headings {
+    margin-left: 1rem;
+    top: -4px;
+    font-size: 10px;
+  }
+  .reg_button {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 3px;
+    font-size: 21px;
+  }
+}
+
+@media (max-width:414px) {
+  .headings {
+    margin-left: 1rem;
+    top: -14px;
+    font-size: 15px;
+  }
+  .reg_button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 3px;
+    width: 51%;
+    font-size: 21px;
+  }
+}
+
+@media (max-width:320px) {
+  .headings {
+    margin-left: 1rem;
+    top: -14px;
+    font-size: 13px;
+  }
+  .reg_button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 3px;
+    width: 57%;
+    font-size: 21px;
+  }
+}
+

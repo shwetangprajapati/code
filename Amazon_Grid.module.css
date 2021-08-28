@@ -1,0 +1,46 @@
+.col_align{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 19px;
+}
+.grid_div{
+    border: 1px solid orange;
+    border-radius: 38px;
+    padding: 5px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.advantages_heading{
+    font-size: 20px!important;
+}
+.content{
+    color: rgb(117, 109, 109);
+    font-weight: 600;
+    padding-top: 16px;
+}
+
+.align_all{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.responsive{
+    width:30%;
+    padding-top: 20px;
+}
+@media (max-width:320px) {
+    .col_align{
+            border-radius: 25px;
+    }
+}
+@media (max-width:450px) {
+    .content{
+        font-size: 13px;
+    }
+    .col_align{
+            border-radius: 21px;
+    }
+}

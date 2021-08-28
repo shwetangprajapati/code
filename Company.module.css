@@ -1,0 +1,121 @@
+.headings{
+    color: red;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 17px;
+    font-size: 16px;
+}
+
+.img{
+    width:100%;
+    height:auto;
+}
+.font_size{
+    font-size: 13px;
+}
+.img_size{
+    width: 22%;
+    height: 79px;
+    margin-top: 41px;
+}
+
+.review_img_headi {
+    margin-left: 12px;
+    margin-top: 55px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.review_img_date {
+    margin-top: 77px;
+    margin-left: -98px;
+    font-weight: 500;
+}
+
+.Excellent {
+    margin-top: 38px;
+    margin-bottom: 50px;
+    text-shadow: 0 0 black;
+    font-size: s
+    mall;
+}
+.more{
+    color:red;
+}
+.view_more{
+    text-align: right;
+    float: right;
+    color: red;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.Write_a_review {
+    border-style: none;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    text-align: center;
+    outline: none;
+    border-radius: 3px;
+    width: 40%;
+    height: 30px;
+}
+
+.heading {
+    color: lightgreen;
+    font-size: 37px;
+    margin-left: 15px;
+    margin-top: -8px;
+}
+.star {
+    color: darkorange;
+    font-size: 24px;
+    margin-left: 14px;
+}
+
+.star_opacity{
+opacity:0.3;
+}
+
+.bar_5 {
+    width: 100%;
+    height: 18px;
+    background-color: #04AA6D;
+}
+
+.bar_4 {
+    width: 50%;
+    height: 18px;
+    background-color: yellowgreen;
+}
+
+.bar_3 {
+    width: 30%;
+    height: 18px;
+    background-color: yellow;
+}
+
+.bar_2 {
+    width: 20%;
+    height: 18px;
+    background-color: darkorange;
+}
+
+.bar_1 {
+    width: 10%;
+    height: 18px;
+    background-color: lightsalmon;
+}
+
+.ol_review {
+    margin-top: 22px;
+    color: black;
+    margin-left: -22px;
+}
+
+.bottom_border{
+    border-bottom: 2px solid;
+    width: 100%;
+    color:lightgrey;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}

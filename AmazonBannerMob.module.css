@@ -1,0 +1,101 @@
+.responsive{
+    width:100%;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+
+    position: absolute;
+    top: 42px;
+    left: 19px;
+}
+
+.heading1{
+    width: 50%;
+    font-size: 12px;
+    color:white;
+}
+.button_style{
+    background-color: orange;
+    width: 79px;
+    padding: 3px;
+    font-size: 9px;
+    font-weight: 700;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
+
+  @media (max-width:500px) {
+    .absolute {
+        position: absolute;
+        top: 70px;
+        left: 19px;
+    }
+    .heading1{
+        width: 50%;
+        font-size: 19px;
+        color: white;
+    }
+    .button_style {
+    background-color: orange;
+    width: 102px;
+    padding: 3px;
+    font-size: 13px;
+    }
+}
+
+@media (max-width:450px) {
+    .absolute {
+        top: 60px;
+    }
+    .heading1{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:400px) {
+    .absolute {
+        top: 57px;
+    }
+    .heading1{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:350px) {
+    .absolute {
+        top: 49px;
+    }
+    .heading1{
+        font-size: 13px;
+    }
+    .button_style {
+        width: 90px;
+        padding: 1px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width:320px) {
+    .absolute {
+        top: 47px;
+    }
+    .heading1{
+        font-size: 12px;
+    }
+}
+@media (max-width:300px) {
+    .absolute {
+        top: 41px;
+    }
+    .heading1{
+        font-size: 11px;
+    }
+}
+
+
+
+

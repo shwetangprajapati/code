@@ -1,0 +1,81 @@
+ .uploadcv_btn {
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    color: grey;
+}
+
+
+.uploadcv_btntext {
+  
+    border: none;
+    background-color: rgb(236, 63, 63);
+    color: white;
+    border-radius: 3px;
+    padding:8px;
+    font-size: 14px;
+   
+    
+}
+
+.uploadcv_input {
+    opacity: 0;
+   
+
+}
+
+.uploadcv_text {
+  
+    padding-left: 15px;
+    padding-left: 32px;
+    padding-top: 14px;
+}
+
+.uploadcv_input2 {
+    width: 95%;
+    margin-left: 11px;
+   border: 0;
+   padding-top: 7px;
+   outline: 0;
+}
+
+.uploadcv_icon {
+    margin-top: -26px;
+    margin-left: 15px;
+}
+
+.uploadcv_icon2 {
+    margin-top: -26px;
+    margin-right: 17px;
+} 
+.uploadcv_head {
+    border: 1px solid lightgray;
+    margin-top: 30px;
+    background: #fff;
+}
+.uploadcv_texticon {
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+.uploadcv_iconsflex {
+    display: flex;
+    justify-content: space-between;
+}
+.mid_btn {
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    background-color: #F02F39;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.mid_btn:hover {
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    color: #F02F39;
+    border-color: #F02F39;
+}
+
